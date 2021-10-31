@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connecting JS File</title>
+    <link rel="stylesheet" href="link.css">
+    <script>
+        //Embedding JavaScript
+        var y="My Name is Shikha Singh";
+        console.log(y);
+    </script>
+    <script src="link.js">Link</script>
+</head>
+<body>
+    <p style="font-weight: bold; font-size: larger;">
+        Question : <br> <br>Create a HTML page and show the procedure of connecting JS file with it.<br>
+    </p> <br>
+   <p>&nbsp;&nbsp;&nbsp; There are following three ways in which users can add JavaScript to HTML pages.</p>
+   <div class="list">
+       <ol>
+           <b>
+           <li>Embedding code</li>
+           <li> Inline code</li>
+            <li>External file</li>
+        </b>
+       </ol>
+    </div><br><br>
+    <div id="dis">
+        <ol>
+            <li><b> Embedding code:-</b></li>
+            <p>To add the JavaScript code into the HTML pages, we can use the &lt;script &gt;.....&lt;/script&gt; tag of the HTML that wrap around JavaScript code inside the HTML program. Users can also define JavaScript code in the &lt;body&gt; tag (or we can say body section) or &lt;head&gt; tag because it completely depends on the structure of the web page that the users use.</p>
+            <br>
+            <li><b>Inline code:-</b></li>
+            <p>Generally, this method is used when we have to call a function in the HTML event attributes. There are many cases (or events) in which we have to add JavaScript code directly eg., OnMover event, OnClick, etc.</p>
+            <br>
+            <li><b> External file:-</b></li>
+            <p>We can also create a separate file to hold the code of JavaScript with the (.js) extension and later incorporate/include it into our HTML document using the src attribute of the &lt;script&gt; tag. It becomes very helpful if we want to use the same code in multiple HTML documents. It also saves us from the task of writing the same code over and over again and makes it easier to maintain web pages.
+            </p>
+    </div>
+    <br>
+    <div class="mid">
+        <a href="index.html" target="_blank" rel="noopener noreferrer">Main Page</a><br>
+    </div>
+</body>
+</html>
